@@ -417,3 +417,47 @@ header.sticky {
   font-size: 20px;
   margin-bottom: 40px;
 }
+
+.contact {
+  padding: 60px 13%;
+  background: var(--bg-color);
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  gap: 2rem;
+}
+
+.contact-content img {
+  height: auto;
+  width: 160px;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+.contact-content li {
+  margin-bottom: 18px;
+}
+
+.contact-content li a {
+  display: block;
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 15px;
+  transition: all 0.40s ease;
+}
+
+.contact-content li a:hover {
+  transform: translateX(10px);
+  color: var(--main-color);
+}
+
+.last-text p {
+  text-align: center;
+  color: var(--second-color);
+  padding: 18px;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
