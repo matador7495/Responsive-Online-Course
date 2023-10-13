@@ -84,3 +84,73 @@ header {
   cursor: pointer;
   display: none;
 }
+
+section {
+  padding: 80px 13%;
+}
+
+.home {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: url(/img/background.png);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1rem;
+}
+
+.home-text h1 {
+  font-size: var(--big-font);
+  margin: 15px 0 15px;
+}
+
+.home-text h6 {
+  color: var(--main-color);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.home-text p {
+  color: var(--second-color);
+  font-size: var(--p-font);
+  font-weight: 500;
+  margin-bottom: 48px;
+}
+
+.latter form {
+  width: 100%;
+  max-width: 460px;
+  position: relative;
+}
+
+.latter form input:first-child {
+  display: inline-block;
+  width: 100%;
+  outline: none;
+  padding: 16px 140px 16px 15px;
+  border: 2px solid var(--main-color);
+  border-radius: 30px;
+}
+
+.latter form input:last-child {
+  position: absolute;
+  display: inline-block;
+  border: none;
+  outline: none;
+  padding: 16px 40px;
+  border-radius: 30px;
+  background: var(--main-color);
+  color: var(--bg-color);
+  cursor: pointer;
+  top: 2px;
+  right: 1px;
+}
+
+.home-img img {
+  height: auto;
+  width: 100%;
+}
