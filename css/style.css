@@ -369,3 +369,12 @@ header.sticky {
   font-weight: 400;
   letter-spacing: 1px;
 }
+
+.cta-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, auto));
+  gap: 2rem;
+  align-items: center;
+  text-align: center;
+  margin-top: 5rem;
+}
