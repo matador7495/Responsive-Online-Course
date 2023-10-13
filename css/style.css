@@ -154,3 +154,45 @@ section {
   height: auto;
   width: 100%;
 }
+
+header.sticky {
+  background: var(--bg-color);
+  padding: 12px 13%;
+  box-shadow: 0px 4px 15px rgb(0 0 0 / 8%);
+}
+
+.container {
+  padding: 70px 13%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  gap: 1.5rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.container-box {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+  border: 1px solid #e9ecef;
+  border-radius: 20px;
+  padding: 20px 30px;
+  box-sizing: -11.729px -11.729px 32px rgb(255 255 255 / 15%);
+  transition: all 0.40s ease;
+}
+
+.container-box:hover {
+  transform: translateY(-15px);
+}
+
+.container-text h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.container-text p {
+  font-size: var(--p-font);
+  color: var(--second-color);
+  font-weight: 500;
+}
